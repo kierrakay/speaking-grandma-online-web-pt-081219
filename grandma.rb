@@ -15,13 +15,13 @@
 
 def speak_to_grandma(string)
   if string == "I LOVE YOU GRANDMA!"
-    puts "I LOVE YOU TOO PUMPKIN!" 
+  #  puts "I LOVE YOU TOO PUMPKIN!"  <-- dont need puts because test spec doesnt say " puts ILOVEYOUTOOPUMPKIN" IT JUST SAYS PHRASE
     "I LOVE YOU TOO PUMPKIN!"
   elsif string == string.upcase
-   puts "NO, NOT SINCE 1938!"
+ #  puts "NO, NOT SINCE 1938!"
   "NO, NOT SINCE 1938!"
-else string == string.upcase
-   puts "HUH?! SPEAK UP, SONNY!"
+else
+ #  puts "HUH?! SPEAK UP, SONNY!" 
   "HUH?! SPEAK UP, SONNY!"
  end
  end
